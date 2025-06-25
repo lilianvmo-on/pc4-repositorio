@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_24ce207f62cf91c56390067a7eef8373 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_24ce207f62cf91c56390067a7eef8373" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_24ce207f62cf91c56390067a7eef8373 = L.map(
+                "map_24ce207f62cf91c56390067a7eef8373",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7096364d51a890a64c578a817cb54bdf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7096364d51a890a64c578a817cb54bdf.addTo(map_24ce207f62cf91c56390067a7eef8373);
+        
+    
+            var marker_53776a0a1353a2a3118a891deb9bff5f = L.marker(
+                [-17.7404, 168.321],
+                {
+}
+            ).addTo(map_24ce207f62cf91c56390067a7eef8373);
+        
+    
+            var icon_ab723d1c3243cbf95d75bcd71d94286c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2cc698c187cfae29e209217ec2ff1860 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f496d428a96d6001ea70d348b80e38be = $(`<div id="html_f496d428a96d6001ea70d348b80e38be" style="width: 100.0%; height: 100.0%;"><b>Avatar</b><br>Director: James Cameron<br>Año: 2009</div>`)[0];
+                popup_2cc698c187cfae29e209217ec2ff1860.setContent(html_f496d428a96d6001ea70d348b80e38be);
+            
+        
+
+        marker_53776a0a1353a2a3118a891deb9bff5f.bindPopup(popup_2cc698c187cfae29e209217ec2ff1860)
+        ;
+
+        
+    
+    
+                marker_53776a0a1353a2a3118a891deb9bff5f.setIcon(icon_ab723d1c3243cbf95d75bcd71d94286c);
+            
+    
+            var marker_a5512a597ff9e80d8a74392936fa5198 = L.marker(
+                [37.541, 126.986],
+                {
+}
+            ).addTo(map_24ce207f62cf91c56390067a7eef8373);
+        
+    
+            var icon_1b1c697cb3f34180c9ffc2ed1ca4da69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_517df04533e21511b799696fa02b9bff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_89cfe58d92d99c39fef2ea705cba932b = $(`<div id="html_89cfe58d92d99c39fef2ea705cba932b" style="width: 100.0%; height: 100.0%;"><b>Parasite</b><br>Director: Bong Joon-ho<br>Año: 2019</div>`)[0];
+                popup_517df04533e21511b799696fa02b9bff.setContent(html_89cfe58d92d99c39fef2ea705cba932b);
+            
+        
+
+        marker_a5512a597ff9e80d8a74392936fa5198.bindPopup(popup_517df04533e21511b799696fa02b9bff)
+        ;
+
+        
+    
+    
+                marker_a5512a597ff9e80d8a74392936fa5198.setIcon(icon_1b1c697cb3f34180c9ffc2ed1ca4da69);
+            
+    
+            var marker_4441c6598b421ed67e33d814a5f8c4f4 = L.marker(
+                [22.2819, 114.1589],
+                {
+}
+            ).addTo(map_24ce207f62cf91c56390067a7eef8373);
+        
+    
+            var icon_f9df426c86b14cf82073225bad011c60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9219c71f9223711ddd19c2e485268000 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_674131aa194a116b80a5101450845274 = $(`<div id="html_674131aa194a116b80a5101450845274" style="width: 100.0%; height: 100.0%;"><b>Con ánimo de amar</b><br>Director: Wong Kar-wai<br>Año: 2000</div>`)[0];
+                popup_9219c71f9223711ddd19c2e485268000.setContent(html_674131aa194a116b80a5101450845274);
+            
+        
+
+        marker_4441c6598b421ed67e33d814a5f8c4f4.bindPopup(popup_9219c71f9223711ddd19c2e485268000)
+        ;
+
+        
+    
+    
+                marker_4441c6598b421ed67e33d814a5f8c4f4.setIcon(icon_f9df426c86b14cf82073225bad011c60);
+            
+    
+            var marker_e9358f38beac5c8627a54ca404eb8a09 = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_24ce207f62cf91c56390067a7eef8373);
+        
+    
+            var icon_78d54800bd68a07b75a61e465b8de52b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93d785f9a803f89229f0088b83019479 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_470b991a9d70c460cc39faa642d310fd = $(`<div id="html_470b991a9d70c460cc39faa642d310fd" style="width: 100.0%; height: 100.0%;"><b>Casablanca</b><br>Director: Michael Curtiz<br>Año: 1942</div>`)[0];
+                popup_93d785f9a803f89229f0088b83019479.setContent(html_470b991a9d70c460cc39faa642d310fd);
+            
+        
+
+        marker_e9358f38beac5c8627a54ca404eb8a09.bindPopup(popup_93d785f9a803f89229f0088b83019479)
+        ;
+
+        
+    
+    
+                marker_e9358f38beac5c8627a54ca404eb8a09.setIcon(icon_78d54800bd68a07b75a61e465b8de52b);
+            
+    
+            var marker_e2df22d9909f328c567fb84ca5d148c9 = L.marker(
+                [40.4168, -3.7038],
+                {
+}
+            ).addTo(map_24ce207f62cf91c56390067a7eef8373);
+        
+    
+            var icon_15261364bd8d8bee667213280440bcb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc7a688662b65fcc2a2b3090f2820e25 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0eaee82da80ed832d18d4e928721fcc1 = $(`<div id="html_0eaee82da80ed832d18d4e928721fcc1" style="width: 100.0%; height: 100.0%;"><b>Pared con pared</b><br>Director: Patricia Font<br>Año: 2024</div>`)[0];
+                popup_dc7a688662b65fcc2a2b3090f2820e25.setContent(html_0eaee82da80ed832d18d4e928721fcc1);
+            
+        
+
+        marker_e2df22d9909f328c567fb84ca5d148c9.bindPopup(popup_dc7a688662b65fcc2a2b3090f2820e25)
+        ;
+
+        
+    
+    
+                marker_e2df22d9909f328c567fb84ca5d148c9.setIcon(icon_15261364bd8d8bee667213280440bcb5);
+            
+</script>
+</html>
