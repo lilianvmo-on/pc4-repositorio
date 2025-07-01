@@ -1,12 +1,12 @@
 [theme]
 
-primaryColor = "#BB99FF"
+primaryColor = "#BE4BFF"
 
-backgroundColor = "#FFFFFF"
+backgroundColor = "#0E1117"
 
-secondaryBackgroundColor = "#825AC7"
+secondaryBackgroundColor = "#7349B7"
 
-textColor = "#000000"
+textColor = "#FAFAFA"
 
 font = "sans-serif"
 
